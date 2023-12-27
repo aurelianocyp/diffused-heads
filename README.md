@@ -13,6 +13,9 @@ Python 3.x environment with [ffmpeg](https://www.ffmpeg.org/) is needed. The res
 ```
 pip install -r requirements.txt
 ```
+```
+conda install ffmpeg
+```
 
 ## Sampling
 Due to LRW license agreement, we are only able to provide a checkpoint of our model trained on CREMA.
