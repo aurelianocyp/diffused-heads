@@ -53,6 +53,7 @@ pip install .
 # pics_folder中放要aligment的图片
 python main.py -i pics_folder -m face_processor/data/mean_face.npy -p -o out_folder --offset 0.11 0.335 0.155
 ```
+绿幕用ps抠图。修改config中的id frame按照上面的命令运行就行。
 
 ## Training
 The training code can be found in the branch [train](https://github.com/MStypulkowski/diffused-heads/tree/train). We aplogize for the delay.
