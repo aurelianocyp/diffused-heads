@@ -18,11 +18,11 @@ Due to LRW license agreement, we are only able to provide a checkpoint of our mo
 
 
 
-1. Download and unpack [checkpoints](https://drive.google.com/file/d/1U90egQvzERHclTYPCjZadrEMyF7TAPa-/view?usp=drive_link) (our model and pretrained audio encoder).
+1. Download and unpack [checkpoints](https://drive.google.com/file/d/1U90egQvzERHclTYPCjZadrEMyF7TAPa-/view?usp=drive_link) (our model and pretrained audio encoder).将两个checkpoint解压放进path/to中去
    
 
    
-3. Specify paths and options in `config_crema.yaml` (check comments in the file).创建名为path的文件夹与名为to的文件夹，将两个checkpoint放进去
+3. Specify paths and options in `config_crema.yaml` (check comments in the file).可以不更改直接运行
    
 4. Run the script
 ```
