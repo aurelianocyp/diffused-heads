@@ -12,7 +12,7 @@ encoder_checkpoint: ./path/to/audio_encoder.pt
 id_frame: ./path/to/1082_DFA_FEA_XX.mp4
 
 # /path/to/audio - can be anything supported by torchaudio (e.g. .wav, .mp3, .mp4)
-audio: ./path/to/audio.wav
+audio: ./path/to/1_8s_16khz.wav
 
 # /path/to/output_video.mp4
 output: ./path/to/output_video.mp4
