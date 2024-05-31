@@ -46,22 +46,4 @@ It is highly recommended to use a frame from the provided CREMA videos. This ins
 ## Training
 A training script will be uploaded in the future (ETA December 2023).
 
-## Citation
-```
-@article{stypulkowski2023diffused,
-  title={Diffused heads: Diffusion models beat gans on talking-face generation},
-  author={Stypu{\l}kowski, Micha{\l} and Vougioukas, Konstantinos and He, Sen and Zi{\k{e}}ba, Maciej and Petridis, Stavros and Pantic, Maja},
-  journal={arXiv preprint arXiv:2301.03396},
-  year={2023}
-}
-```
 
-## License
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
