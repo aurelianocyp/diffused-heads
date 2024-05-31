@@ -38,6 +38,7 @@ class AudioEncoder(nn.Module):
 
 def get_audio_emb(audio_path, checkpoint, device):
     audio, audio_rate = torchaudio.load(audio_path, channels_first=False)
+    print("audio_rate:",audio_rate)
     assert audio_rate == 16000, 'Only 16 kHZ audio is supported.'
     audio = audio[None, None, :, 0].to(device)
 
