@@ -1,8 +1,5 @@
 [Demo](https://youtu.be/DSipIDj-5q0)
 
-<p align="center">
-<img src='./intro.gif' width=400>
-</p>
 
 ## Setup
 Python 3.x environment
