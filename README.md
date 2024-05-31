@@ -50,7 +50,7 @@ conda activate face_processor
 pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install face-alignment
 pip install .
-# pics_folder中放要aligment的图片，将某个位置的
+# pics_folder中放要aligment的图片
 python main.py -i pics_folder -m face_processor/data/mean_face.npy -p -o out_folder --offset 0.11 0.335 0.155
 ```
 
