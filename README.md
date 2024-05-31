@@ -9,11 +9,13 @@ Official repository for Diffused Heads: Diffusion Models Beat GANs on Talking-Fa
 </p>
 
 ## Setup
-Python 3.x environment with [ffmpeg](https://www.ffmpeg.org/) is needed. The rest of the requirements can be installed using:
+Python 3.x environment
 ```
+git clone https://github.com/aurelianocyp/diffused-heads
+conda create -n diffused_heads python=3.8
+conda activate diffused_heads
+cd diffused-heads
 pip install -r requirements.txt
-```
-```
 conda install ffmpeg
 ```
 
