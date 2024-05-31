@@ -45,6 +45,9 @@ face alignment:
 ```
 git clone https://github.com/DinoMan/face-processor
 cd face-processor
+conda create -n face_processor python=3.7
+conda activate face_processor
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117
 pip install face-alignment
 pip install .
 # pics_folder中放要aligment的图片
