@@ -41,6 +41,16 @@ You can use audio recordings of your choosing freely. The only requirements are 
 ### Identity frame
 It is highly recommended to use a frame from the provided CREMA videos. This instance of the model was trained on clips with green background only. If you want to use your identity frame anyway, please follow this [repo](https://github.com/DinoMan/face-processor) for face alignment. Additionally, you may want to try segmenting the person and replacing background to green.
 
+face alignment:
+```
+git clone https://github.com/DinoMan/face-processor
+cd face-processor
+pip install face-alignment
+pip install .
+# pics_folder中放要aligment的图片
+python main.py -i pics_folder -m mean_face -p -o out_folder --offset 0.11 0.335 0.155
+```
+
 ## Training
 The training code can be found in the branch [train](https://github.com/MStypulkowski/diffused-heads/tree/train). We aplogize for the delay.
 
