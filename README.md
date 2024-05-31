@@ -42,6 +42,6 @@ You can use audio recordings of your choosing freely. The only requirements are 
 It is highly recommended to use a frame from the provided CREMA videos. This instance of the model was trained on clips with green background only. If you want to use your identity frame anyway, please follow this [repo](https://github.com/DinoMan/face-processor) for face alignment. Additionally, you may want to try segmenting the person and replacing background to green.
 
 ## Training
-A training script will be uploaded in the future (ETA December 2023).
+The training code can be found in the branch [train](https://github.com/MStypulkowski/diffused-heads/tree/train). We aplogize for the delay.
 
 
