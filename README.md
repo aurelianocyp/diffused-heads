@@ -1,8 +1,4 @@
-# Diffused Heads 
-
-Official repository for Diffused Heads: Diffusion Models Beat GANs on Talking-Face Generation.
-
-### [Project](https://mstypulkowski.github.io/diffusedheads/) | [Paper](https://arxiv.org/abs/2301.03396) | [Demo](https://youtu.be/DSipIDj-5q0)
+[Demo](https://youtu.be/DSipIDj-5q0)
 
 <p align="center">
 <img src='./intro.gif' width=400>
